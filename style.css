@@ -1,0 +1,17 @@
+#fullscreen{
+  visibility: visible
+}
+
+  #smallscreen {
+    visibility: hidden;
+  }
+
+@media (max-width: 480px) {
+  #fullscreen{
+  visibility: hidden
+}
+
+  #smallscreen {
+    visibility: visible;
+  }
+}
